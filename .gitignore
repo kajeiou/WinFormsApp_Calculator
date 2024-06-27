@@ -1,0 +1,62 @@
+# Fichiers de build Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+
+# Répertoires de build Visual Studio
+[Bb]in/
+[Oo]bj/
+
+# Fichiers de configuration Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Fichiers de configuration de package
+packages/
+*.nupkg
+# Si vous utilisez NuGet pour restaurer les packages, ajoutez packages.config :
+packages.config
+
+# Fichiers de log
+*.log
+
+# Fichiers de déploiement ClickOnce
+publish/
+*.publishsettings
+
+# Fichiers de test
+TestResults/
+*.TestResult.xml
+*.trx
+
+# Fichiers de données d'application
+*.mdf
+*.ldf
+*.ndf
+
+# Fichiers de configuration locaux
+appsettings.json
+appsettings.*.json
+
+# Fichiers de travail
+*.ide
+*.cache
+*.bak
+*.swp
+*.tmp
+
+# Fichiers spécifiques aux OS
+[Tt]humbs.db
+*.DS_Store
+._*
+
+# Dossier de sauvegarde des packages
+.vscode/
